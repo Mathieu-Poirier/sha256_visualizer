@@ -7,7 +7,7 @@ import { NodeServiceService } from './node-service.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit{
   title = 'sha256_frontend';
   posts : any;
   
@@ -20,4 +20,5 @@ export class AppComponent implements OnInit {
       console.log('Response from API is: ', response)
     })
   }
+  
 }

@@ -22,10 +22,11 @@ app.use('/api/v1/users', users);
 app.get('/', (req, res) => {
   res.json({
     "statusCode" : 200,
-    "statusMessage" : "Hello World!"
+    "statusMessage" : "API is working!"
   }
   )
 })
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
