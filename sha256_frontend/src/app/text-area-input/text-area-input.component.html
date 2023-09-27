@@ -1,7 +1,7 @@
 <div>
     <form>
         <h3>Enter text to convert into hash</h3>
-        <textarea name="input_area" id="input_area"></textarea>
-        <button type="submit" >Compute Hash</button>
+        <textarea name="input_area" id="input_area" #input_area></textarea>
+        <button type="button" (click)="load(input_area.value)">Compute Hash</button>
     </form>
 </div>
