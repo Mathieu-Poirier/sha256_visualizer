@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./text-area-input.component.css']
 })
 export class TextAreaInputComponent {
-
+  onPress(){
+    return console.log('Button');
+  }
 }

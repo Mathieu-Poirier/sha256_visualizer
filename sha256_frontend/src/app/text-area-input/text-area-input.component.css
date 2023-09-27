@@ -1,3 +1,32 @@
 div {
     margin-top: 50px;
+    display: block;
+    min-width: 100%;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    
+}
+
+textarea {
+    width: 15%;
+    height: 250px;
+}
+
+h3 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    text-decoration: none;
+    border: solid black;
+    background-color: white;
+    display: block;
+    margin-top: 20px;
+    color: red;
+}
+
+button:hover{
+    background-color: black;
 }
