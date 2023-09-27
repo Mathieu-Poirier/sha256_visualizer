@@ -22,7 +22,7 @@ app.use('/api/v1/users', users);
 app.get('/', (req, res) => {
   res.json({
     "statusCode" : 200,
-    "statusMessage" : "Hello World!"
+    "statusMessage" : "API is working!"
   }
   )
 })
